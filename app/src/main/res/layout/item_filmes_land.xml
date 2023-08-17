@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/film_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/film_image" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/filme_background"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/film_title" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/film_image"
+        android:layout_width="110dp"
+        android:layout_height="152dp"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="6dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/film_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="8dp"
+        android:maxLines="2"
+        android:paddingTop="15dp"
+        android:textColor="@color/cerulean"
+        app:layout_constraintEnd_toStartOf="@+id/realese_date"
+        app:layout_constraintStart_toEndOf="@+id/film_image"
+        app:layout_constraintTop_toTopOf="@+id/film_image" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:isIndicator="true"
+        android:numStars="10"
+        android:theme="@style/RatingBar"
+        app:layout_constraintStart_toStartOf="@+id/film_title"
+        app:layout_constraintTop_toBottomOf="@+id/film_genre" />
+
+    <TextView
+        android:id="@+id/film_synospe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/indigo_dye"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/film_title"
+        app:layout_constraintStart_toStartOf="@+id/film_title"
+        app:layout_constraintTop_toBottomOf="@+id/rating_bar" />
+
+    <TextView
+        android:id="@+id/film_genre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/indigo_dye"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/film_title"
+        app:layout_constraintTop_toBottomOf="@+id/film_title" />
+
+    <TextView
+        android:id="@+id/realese_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

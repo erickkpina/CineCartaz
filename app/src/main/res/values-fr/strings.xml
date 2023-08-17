@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">CineCartazApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="bottombar_movies">Films</string>
+    <string name="bottombar_register">Nouveau Film</string>
+    <string name="register">Enregistrer Film</string>
+    <string name="bottombar_extra">Prochainement</string>
+    <string name="detalhes">Détails</string>
+    <string name="filmes">Films</string>
+    <string name="prox_estreias">Prochaines Sorties</string>
+    <string name="dashboard_page_name">Tableau de Bord</string>
+    <string name="text_input_hint_nomeFilme">Nom du Film</string>
+    <string name="text_input_hint_cinema">Cinéma où vous avez regardé le film</string>
+    <string name="label_avalicao">Évaluation du Film</string>
+    <string name="numero_avaliacao">5</string>
+    <string name="text_input_layout_data">Date à laquelle le film a été regardé</string>
+    <string name="text_input_hint_observacoes">Observations</string>
+    <string name="text_button_submmit">Enregistrer</string>
+    <string name="selecionar_data">Sélectionnez une date passée</string>
+    <string name="required">*Requis</string>
+    <string name="cinema_invalido">Cinéma invalide</string>
+    <string name="filme_invalido">Film invalide</string>
+    <string name="filme_sucesso">Film enregistré avec succès</string>
+    <string name="selecione_cinema">Sélectionnez un cinéma</string>
+    <string name="selecione_filme">Sélectionnez un film</string>
+    <string name="cancelar">Annuler</string>
+    <string name="hello_blank_fragment">Bonjour fragment vide</string>
+    <string name="_10">/10</string>
+    <string name="countdown">Compte à rebours : %1$d secondes</string>
+    <string name="tirar_foto">Prendre une Photo</string>
+    <string name="imdb">IMDB</string>
+    <string name="avalia_o">Évaluation</string>
+    <string name="avaliacao_filmes_dashboard">Total des films évalués</string>
+    <string name="media_avaliacaoes_dashboard">Moyenne des évaluations</string>
+    <string name="titulo_card1_dashboard">Genres de films regardés :</string>
+    <string name="titulo_card2_dashboard">Dernier film visionné :</string>
+    <string name="texto_fab_mapa_filmes">Carte</string>
+    <string name="texto_fab_lista_filmes">Liste</string>
+    <string name="contagem_regressiva">Compte à rebours : 10 secondes</string>
+    <string name="texto_popup">Commencez à parler</string>
+    <string name="sinopseIndisponivel">Synopsis non disponible</string>
+    <string name="filmeJaRegistado">Film déjà enregistré</string>
+    <string name="filme_nao_lancado">Le film n`a pas encore été publié</string>
+    <string name="filme_nao_encontrado">Aucun film trouvé</string>
+</resources>

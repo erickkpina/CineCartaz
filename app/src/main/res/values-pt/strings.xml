@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">CineCartazApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="bottombar_movies">Filmes</string>
+    <string name="bottombar_register">Novo Filme</string>
+    <string name="register">Registar Filme</string>
+    <string name="bottombar_extra">Brevemente</string>
+    <string name="detalhes">Detalhes</string>
+    <string name="filmes">Filmes</string>
+    <string name="prox_estreias">Próximas Estreias</string>
+    <string name="dashboard_page_name">Dashborad</string>
+    <string name="text_input_hint_nomeFilme">Nome do Filme</string>
+    <string name="text_input_hint_cinema">Cinema onde visualizou o filme</string>
+    <string name="label_avalicao">Avaliação do Filme</string>
+    <string name="numero_avaliacao">5</string>
+    <string name="text_input_layout_data">Data em que o filme foi visto</string>
+    <string name="text_input_hint_observacoes">Observações</string>
+    <string name="text_button_submmit">Guardar</string>
+    <string name="selecionar_data">Selecione uma data no passado</string>
+    <string name="required">*Required</string>
+    <string name="cinema_invalido">Cinema Inválido</string>
+    <string name="filme_invalido">Filme Inválido</string>
+    <string name="filme_sucesso">Filme registado com sucesso</string>
+    <string name="selecione_cinema">Selecione um cinema</string>
+    <string name="selecione_filme">Selecione um filme</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_10">/10</string>
+    <string name="countdown">Contagem regressiva: %1$d segundos</string>
+    <string name="tirar_foto">Tirar Foto</string>
+    <string name="imdb">IMDB</string>
+    <string name="avalia_o">Avaliação</string>
+    <string name="avaliacao_filmes_dashboard">Total de filmes avaliados</string>
+    <string name="media_avaliacaoes_dashboard">Média das avaliações</string>
+    <string name="titulo_card1_dashboard">Géneros mais assistidos:</string>
+    <string name="titulo_card2_dashboard">Último filme visualizado:</string>
+    <string name="texto_fab_mapa_filmes">Mapa</string>
+    <string name="texto_fab_lista_filmes">Lista</string>
+    <string name="contagem_regressiva">Contagem regressiva: 10 segundos</string>
+    <string name="texto_popup">Começe a falar</string>
+    <string name="cinemas">Cinemas</string>
+    <string name="sinopseIndisponivel">Sem sinopse disponível</string>
+    <string name="filmeJaRegistado">Filme já registado</string>
+    <string name="filme_nao_lancado">Filme ainda não foi lançado</string>
+    <string name="filme_nao_encontrado">Nenhum filme encontrado</string>
+    <string name="address">Endereço</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dashboard"
+        android:title="@string/dashboard_page_name"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_dashboard_24"
+        />
+
+    <item
+        android:id="@+id/filmes"
+        android:title="@string/bottombar_movies"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_local_movies_24"
+        />
+    <item
+        android:id="@+id/holder"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="false"
+        />
+    <item
+        android:id="@+id/registarFilme"
+        android:title="@string/bottombar_register"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_post_add_24"
+        />
+
+    <item
+        android:id="@+id/novidades"
+        android:title="@string/cinemas"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_camera_indoor"
+        />
+</menu>
