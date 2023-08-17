@@ -1,6 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/3TAzxFga)
-# Diogo Cerqueira a22002160
 # Erick Pina a22006182
+# Diogo Cerqueira a22002160
+ 
 
 ## Erro APK
 Ao testar o apk num emulador na versão pedida no enunciado (API 23), obtive o erro abaixo, é preciso usar um emulador da API 28.
