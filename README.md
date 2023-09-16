@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/3TAzxFga)
-# Erick Pina a22006182
-# Diogo Cerqueira a22002160
+# Erick Pina
+# Diogo Cerqueira
  
 
 ## Erro APK
@@ -11,7 +11,6 @@ Ao testar o apk num emulador na versão pedida no enunciado (API 23), obtive o e
 ## Erro microfone
 Ao testar a funcionalidade de pesquisa por voz, não conseguimos utilizar o microfone do emulador com a API 28, 
 só conseguimos com a API 31 (na API 28 dava erro de internet)
-
 
 
 ## Screenshots dos ecrãs
@@ -44,7 +43,6 @@ Parte 1
 - [x] Registo de filmes (sem fotografias)
 - [x] Registo de filmes (apenas a parte das fotografias)
 - [x] Suporte multi-idioma
-- [x] Extra
 
 Parte 2
 - [x] Registo de filmes
@@ -57,20 +55,9 @@ Parte 2
 - [x] Apresentação dos filmes - Mapa
 - [x] Detalhe do filme (sem fotografias)
 - [x] Detalhe do filme (apenas a parte das fotografias)
-- [x] Pesquisa de filmes por voz - Funcionalidade Avançada
+- [x] Pesquisa de filmes por voz
 - [x] Dashboard
-- [x] Funcionamento Offline - Funcionalidade Avançada
-- [x] Video
-- [x] Extra
-- [x] Ficheiro chatgpt.txt (ver secção Requisito Bónus - Interação com chatgpt)
-
-# AutoAvaliação
-
-18.0
-
-# Link do vídeo da demonstração da aplicação
-
-https://youtu.be/MX3usI_oKVs
+- [x] Funcionamento Offline
 
 # Classes
 
@@ -166,18 +153,6 @@ Classe Opiniao:
 
   * abstract fun clearAllFotos(onFinished: () -> Unit) - Limpa a base de dados
 
-
-# Idioma gerado pelo ChatGPT
-
-![prompt](images/chatgptTranslate.png)
-
-# Fontes de informação
-
-https://www.youtube.com/watch?v=iEXh1-KVeVc - BottomBar
-https://www.youtube.com/watch?v=5zp0nawlNr8&t=153s - Autocomplete
-https://www.youtube.com/watch?v=4ou5yRJtuKU&t=1744s - Grafico de barras
-https://www.youtube.com/watch?v=3LIXkNxUdhw - Read JSON
-ChatGpt
 
 - prompts de chatgpt
   
